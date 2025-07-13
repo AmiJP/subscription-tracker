@@ -1,0 +1,34 @@
+{
+  "name": "subscription-tracker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.9",
+    "@arcjet/node": "^1.0.0-beta.9",
+    "@upstash/workflow": "^0.2.15",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "~1.4.4",
+    "create-require": "^1.1.1",
+    "dayjs": "^1.11.13",
+    "debug": "~2.6.9",
+    "dotenv": "^17.0.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0"
+  }
+}
